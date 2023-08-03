@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla de Usuarios</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Tabla de Usuarios</h2>
+    <table class="table table-bordered mt-3">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Dirección</th>
+          <th>Email</th>
+          <th>Teléfono</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-body">
+        <!-- Aquí se cargarán los datos -->
+      </tbody>
+    </table>
+  </div>
+  <!-- acá el back -->
+  <script src="back.js"></script>
+
+<script>
+    // Función para llenar la tabla con los usuarios
+    function llenarTablaUsuarios() {
+        const tablaBody = document.getElementById("tabla-body");
+        for (const usuario of usuarios) {
+            const fila = document.createElement("tr");
+            fila.innerHTML = `
+          <td>${usuario.nombre}</td>
+          <td>${usuario.edad}</td>
+          <td>${usuario.direccion.calle}, ${usuario.direccion.ciudad}, ${usuario.direccion.codigoPostal}</td>
+          <td>${usuario.contacto.email}</td>
+          <td>${usuario.contacto.telefono}</td>
+        `;
+            tablaBody.appendChild(fila);
+        }
+    }
+
+    // Llamamos a la función para llenar la tabla al cargar la página
+    window.onload = llenarTablaUsuarios;
+</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
