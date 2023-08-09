@@ -1,0 +1,17 @@
+al dejarlo estamos diciendo que ese módulo el módulo principal
+será compuesto por todo lo que diga 
+
+si vamos a crear o consultar o eliminar personas...
+//debemos crear un módulo aparte. allí haremos los get y post.
+
+si esa 
+
+imaginemos que esta es la consola... qué pond´rias para crear el módulo?
+
+::: no tengo idea.... perfecto, entonces lo haré muy detallado.
+para tener alguna idea de qué hacer, vamos a la consola y ponemos..
+si por favor grabar 
+
+// entonces me lo deja listo, con las carpetas
+// y se metío al módulo que ya estaba
+// e importó el módulo que creó.
