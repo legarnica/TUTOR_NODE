@@ -15,3 +15,17 @@ si por favor grabar
 // entonces me lo deja listo, con las carpetas
 // y se metío al módulo que ya estaba
 // e importó el módulo que creó.
+// ahora podemos crear el controller a mano
+// pero y si nos falta algo?...
+// mejor que lo haga nest...
+
+// veamos qué hizo.
+
+// vimos el Get parámetros, no sacamos nada con ver los demás
+// necesito que hagas varios ejercicios de Get
+// yo te los subiré :) ok? muchos si  git hub para subir es muy dificil No pero por ahora velos 
+ve si puedes acceder... necesito que crees otros proyectos
+en tu pc, voy a crear varios ejercicios :)
+te los mandaré durante la semana. vamos a soltar la mano
+por que ser back no es más que eso. hacer módulos.
+Ya bkn cualquier cosa me vas diciendo por wassp trataré deno demosar más allá del viernes en tenerlos ya Alejandra vamos que se puede 
