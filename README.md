@@ -22,7 +22,7 @@ La información del cliente será el conjunto de datos que forman su tabla, este
 
 ## Representación SQL de la tabla cliente:
 
-´´´ sql
+```sql
 CREATE TABLE `cliente` (
   `id` varchar(100) PRIMARY KEY,
   `nombre` VARCHAR(100),
@@ -31,6 +31,6 @@ CREATE TABLE `cliente` (
   `email` VARCHAR(100),
   `contrasena` VARCHAR(100)
 );
-´´´
+```
 
 La única diferencia está en que la tabla posee un primary key id para identificarlo.
